@@ -6,7 +6,9 @@ namespace COD
     {
         static void Main(string[] args)
         {
+            var response = Generator.CallOfDuty();
 
+            Console.WriteLine($"{response.Content}");
         }
     }
 }
